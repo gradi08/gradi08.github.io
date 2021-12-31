@@ -1,0 +1,161 @@
+
+header nav .divone
+{
+	display: flex;
+	font-size:  23px;
+	height: 60px;
+	position: fixed;
+	background-color: rgba(112,119,217,1);
+	width: 100%;
+	color: white;
+	margin-top: -1%;
+	
+}
+.divone :hover {
+	color: blue;
+}
+.pone
+{
+	font-family: Candara;
+	margin-top: 1px;
+	padding-left: 20px;
+	font-size: 30px;
+	word-spacing: 25px;
+}
+.poneaa,.forma
+{
+	margin-left: 80px;
+	margin-top: 15px;
+	font-size: 22px;
+}
+.ponea{
+	margin-left: 250px;
+	font-size: 22px;
+	margin-top: 15px;
+}
+.a
+{
+	float: left;
+	width: 280px;
+	margin-left: 135px;
+	background-color: rgba(195,195,195,0.1);
+	font-family: Arial;
+}
+.b
+{
+	margin-right: 135px;
+	margin-left: 435px;
+	font-family: Arial;
+	padding-top: 35px;
+	text-align: justify;
+}
+h2
+{
+	font-size: 20px;
+	color: rgba(55,147,213,1); 
+	
+}
+.aa+p
+{
+	margin-left: 900px;
+
+}
+.bb
+{
+	float: left;
+}
+.cc
+{
+	padding-left: 200px;
+	padding-top: 10px;
+}
+.dd
+{
+	padding-left: 200px;
+}
+.ee
+{
+	float: left;
+}
+.ff
+{
+	padding-left: 200px;
+	padding-top: 10px;
+}
+.gg
+{
+	padding-left: 200px;
+}
+.a h2
+{
+	padding-left: 10px;
+	line-height: 15px;
+}
+.hh
+{
+	padding-left: 10px;
+}
+.jj,.kk,.ll 
+{
+	padding-left: 30px;
+}
+.ii
+{
+	padding-left: 15px;
+}
+.ph
+{
+	padding-left: 25px;
+}
+.end
+{
+	padding-bottom: 20px;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width:320px) /* Mobile */
+{
+	body
+	{
+		width: 96%;
+	}
+	hr
+	{
+	width: 100%;
+	}
+	.a
+	{
+		float: none;
+		width: 100%;
+		margin-left: 0px;
+		background-color: none;
+
+	}
+	.b
+	{
+		margin: auto;
+		padding-left: 0px;
+	}
+	.aa+p,.bb,.cc,.dd,.ee,.ff,.gg,.a h2,.hh,.jj,.kk,.ll,.ii,.ph
+	{
+		float: none;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	
+}  
+@media (min-width: 321px) and (max-width: 767px)
+{
+
+
+}
+@media (min-width: 768px) and (max-width: 1096px)
+{
+	
+
+}
